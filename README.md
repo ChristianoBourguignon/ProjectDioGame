@@ -8,5 +8,4 @@
 - Fortalecer meu conhecimento com JavaScript
   - Variáveis
   - Operadores
-  - Laços de repetição
   - Estrutura de decisões
