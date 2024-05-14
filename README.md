@@ -6,3 +6,7 @@
 - Desenvolver meu primeiro jogo
 - Desenvolver minha habilidade com github
 - Fortalecer meu conhecimento com JavaScript
+  - Variáveis
+  - Operadores
+  - Laços de repetição
+  - Estrutura de decisões
