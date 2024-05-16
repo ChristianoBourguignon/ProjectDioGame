@@ -14,26 +14,28 @@
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
 
-let nameHero = "Christiano"
-let expHero = 9999;
-let nivel = "";
-
-if (expHero < 1000) {
-    nivel = "Ferro";
-} else if (expHero < 2000) {
-    nivel = "Bronze";
-} else if (expHero < 5000){
-    nivel = "Prata";
-} else if (expHero < 7000){
-    nivel = "Ouro";
-} else if (expHero < 8000){
-    nivel = "Platina";
-} else if (expHero < 9000){
-    nivel = "Ascendente";
-} else if (expHero < 10000){
-    nivel = "Imortal";
-} else {
-    nivel = "Radiante";
+const hero = {
+    name: "",
+    exp: function(name,number){
+        this.name = name;
+        if (number < 1000) {
+            return `O Herói de nome ${this.name} está no nível de Ferro`
+        } else if (number < 2000) {
+            return `O Herói de nome ${this.name} está no nível de Bronze`
+        } else if (number < 5000){
+            return `O Herói de nome ${this.name} está no nível de Prata`
+        } else if (number < 7000){
+            return `O Herói de nome ${this.name} está no nível de Ouro`
+        } else if (number < 8000){
+            return `O Herói de nome ${this.name} está no nível de Platina`
+        } else if (number < 9000){
+            return `O Herói de nome ${this.name} está no nível de Ascendente`
+        } else if (number < 10000){
+            return `O Herói de nome ${this.name} está no nível de Imortal`
+        } else {
+            return `O Herói de nome ${this.name} está no nível de Radiante`
+        }
+    }
 }
 
-console.log(`O Herói de nome ${nameHero} está no nível de ${nivel}`);
+console.log(hero.exp('Christiano', 50000));
