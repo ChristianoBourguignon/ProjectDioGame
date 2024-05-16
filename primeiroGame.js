@@ -13,7 +13,6 @@
 
 // Ao final deve se exibir uma mensagem:
 // "O Herói de nome **{nome}** está no nível de **{nivel}**"
-
 const hero = {
     name: "",
     exp: function(name,number){
@@ -39,3 +38,10 @@ const hero = {
 }
 
 console.log(hero.exp('Christiano', 50000));
+console.log(hero.exp('Matheus', 9500));
+console.log(hero.exp('Pedro', 8500));
+console.log(hero.exp('Patrick', 7500));
+console.log(hero.exp('Felipe Aguiar', 6500));
+console.log(hero.exp('Gabriel', 4500));
+console.log(hero.exp('Thiago', 1500));
+console.log(hero.exp('Julio', 900));
