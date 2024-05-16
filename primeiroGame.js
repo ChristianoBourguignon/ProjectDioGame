@@ -18,30 +18,30 @@ const hero = {
     exp: function(name,number){
         this.name = name;
         if (number < 1000) {
-            return `O Herói de nome ${this.name} está no nível de Ferro`
+           console.log(`O Herói de nome ${this.name} está no nível de Ferro`);
         } else if (number < 2000) {
-            return `O Herói de nome ${this.name} está no nível de Bronze`
+           console.log(`O Herói de nome ${this.name} está no nível de Bronze`);
         } else if (number < 5000){
-            return `O Herói de nome ${this.name} está no nível de Prata`
+           console.log(`O Herói de nome ${this.name} está no nível de Prata`);
         } else if (number < 7000){
-            return `O Herói de nome ${this.name} está no nível de Ouro`
+           console.log(`O Herói de nome ${this.name} está no nível de Ouro`);
         } else if (number < 8000){
-            return `O Herói de nome ${this.name} está no nível de Platina`
+           console.log(`O Herói de nome ${this.name} está no nível de Platina`);
         } else if (number < 9000){
-            return `O Herói de nome ${this.name} está no nível de Ascendente`
+           console.log(`O Herói de nome ${this.name} está no nível de Ascendente`);
         } else if (number < 10000){
-            return `O Herói de nome ${this.name} está no nível de Imortal`
+           console.log(`O Herói de nome ${this.name} está no nível de Imortal`);
         } else {
-            return `O Herói de nome ${this.name} está no nível de Radiante`
+           console.log(`O Herói de nome ${this.name} está no nível de Radiante`);
         }
     }
 }
 
-console.log(hero.exp('Christiano', 50000));
-console.log(hero.exp('Matheus', 9500));
-console.log(hero.exp('Pedro', 8500));
-console.log(hero.exp('Patrick', 7500));
-console.log(hero.exp('Felipe Aguiar', 6500));
-console.log(hero.exp('Gabriel', 4500));
-console.log(hero.exp('Thiago', 1500));
-console.log(hero.exp('Julio', 900));
+hero.exp('Christiano', 50000);
+hero.exp('Matheus', 9500);
+hero.exp('Pedro', 8500);
+hero.exp('Patrick', 7500);
+hero.exp('Felipe Aguiar', 6500);
+hero.exp('Gabriel', 4500);
+hero.exp('Thiago', 1500);
+hero.exp('Julio', 900);
