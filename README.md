@@ -9,3 +9,5 @@
   - Variáveis
   - Operadores
   - Estrutura de decisões
+  - Objetos
+  - Métodos
